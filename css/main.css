@@ -1,0 +1,204 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+@viewport {
+  width: device-width;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+html {
+  line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+body {
+  margin: 0;
+}
+header {
+  display: block;
+}
+h1 {
+  margin: 0.67em 0;
+}
+main {
+    display: block;
+}
+a {
+  background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+body,p,ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 0.5em;
+}
+html {
+  font-family: 'Inter', sans-serif;
+}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+  color: inherit;
+}
+body {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.006em;
+  color: #292929;
+  background-color: #fff;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -ms-font-feature-settings: "kern" 1, "liga" 1;
+  -o-font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+h1 {
+  font-size: 32px;
+  letter-spacing: -0.022em;
+  line-height: 44.8px;
+}
+h2 {
+  font-size: 28px;
+  letter-spacing: -0.021em;
+  line-height: 30.8px;
+  font-weight: 600;
+}
+p {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 21px;
+}
+a {
+  font-weight: 500;
+}
+p,ul {
+  margin-bottom: 21px;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul > li {
+  margin-bottom: 5px;
+}
+li > ul {
+  margin-bottom: 5px;
+}
+a {
+  color: #0067a3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.wrapper {
+  max-width: calc(725px - (1.618em * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.618em;
+  padding-left: 1.618em;
+}
+@media screen and (max-width: 725px) {
+  .wrapper {
+    max-width: calc(725px - (1.618em));
+    padding-right: 0.809em;
+    padding-left: 0.809em;
+  }
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon {
+  margin-right: 10px;
+  padding-right: 5px;
+}
+.icon > svg {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+.icon > svg path {
+  fill: #292929;
+}
+.page-content {
+  padding: 0.809em 0;
+}
+.header {
+  margin-bottom: 1.618em;
+  padding: 0.809em 0;
+  border-bottom: 1px solid #fcfcfc;
+}
+.header .logo > a {
+  color: inherit;
+}
+.header .link > a {
+  color: inherit;
+  font-weight: 400;
+}
+.header .link > a:hover {
+  color: #0067a3;
+}
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.header .logo {
+  padding: 0.5em 0;
+  width: 200px;
+}
+.header .logo a {
+  text-decoration: none;
+}
+.header .header-inside {
+  -webkit-font-smoothing: subpixel-antialiased;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.header .header-inside .link {
+  padding-left: 1.618em;
+}
+.selfie {
+  width: 125px;
+  margin-bottom: 50px;
+}
+.selfie img {
+  position: relative;
+  top: 0;
+  border-radius: 100px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      -moz-user-select: none;
+    -webkit-user-select: none;
+  -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+.selfie img:hover {
+  -webkit-filter: grayscale(0%);
+    transition-duration: 0.3s;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
